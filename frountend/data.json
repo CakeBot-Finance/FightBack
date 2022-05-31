@@ -1,0 +1,46 @@
+{
+    "Classes": [
+        "Fighter",
+        "Wizard",
+        "Cleric",
+        "Rogue",
+        "Ranger",
+        "Barbarian",
+        "Bard",
+        "Druid",
+        "Monk",
+        "Kinght",
+        "Paladin",
+        "Hunter",
+        "Shaman",
+        "Sorcerer",
+        "Demon Hunter"
+    ],
+    "Races": [
+        "Human",
+        "Elf",
+        "Dwarf",
+        "Dragonborn",
+        "Halfling",
+        "Gnome",
+        "Half Elf",
+        "Half Orc",
+        "Orc",
+        "Tiefling",
+        "Troll",
+        "Undead",
+        "Blood Elf",
+        "Pandaren"
+    ],
+    "Alignments": [
+        "Lawful good",
+        "Neutral good",
+        "Chaotic good",
+        "Lawful neutral",
+        "Neutral",
+        "Chaotic neutral",
+        "Lawful evil",
+        "Neutral evil",
+        "Chaotic evil"
+    ]
+}

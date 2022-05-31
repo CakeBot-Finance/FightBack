@@ -1,0 +1,54 @@
+{
+  "name": "vue-shell",
+  "author": "Salah Bentayeb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "4.1.1",
+    "ethers": "^5.6.2",
+    "rpgui": "^1.0.3",
+    "vue": "^2.6.11",
+    "vue-gtag": "^1.16.1",
+    "vue-shell": "1.0.3",
+    "web3-eth-contract": "^1.7.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "4.1.1",
+    "@vue/cli-service": "4.1.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [],
+  "description": "vue-shell is a component vuejs to provides an easy way to create a terminal on your application and then add your own philosophy by adding all the commands you want with their rendering in the output."
+}

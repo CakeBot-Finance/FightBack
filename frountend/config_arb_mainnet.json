@@ -1,0 +1,182 @@
+{
+    "CONTRACT_ADDRESS": "0x585093eE4ad78385958375F97664dD9c3F27A2f1",
+    "SCAN_LINK": "https://arbiscan.io/#/",
+    "NETWORK": {
+        "NAME": "Arbitrum One",
+        "SYMBOL": "AETH",
+        "ID": 42161,
+        "RPC": "https://arb1.arbitrum.io/rpc",
+        "BLOCKEXPLORER": "https://arbiscan.io"
+    },
+    "WEI_COST": 10000000000000000,
+    "DISPLAY_COST": 0.006,
+    "GAS_LIMIT": "900000",
+    "MARKETPLACE_LINK": "https://opensea.io/",
+    "MAX_AMOUNT_PER_TX": 5,
+    "MAX_AMOUNT_CURRENT_CHAIN": 2000,
+    "CHAINID_MAP": {
+        "1": "mainnet",
+        "3": "ropsten",
+        "4": "rinkeby",
+        "5": "goerli",
+        "42": "kovan",
+        "56": "bsc",
+        "137": "matic",
+        "250": "fantom",
+        "421611": "Arbitrum Testnet",
+        "42161" : "Arbitrum One"
+    },
+    "ABI":  [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint8",
+                    "name": "numTokens",
+                    "type": "uint8"
+                }
+            ],
+            "name": "mint",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "symbol",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "owner",
+                    "type": "address"
+                }
+            ],
+            "name": "balanceOf",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "MAX_MINT",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "nextTokenId",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "onChainNFTCount",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint16",
+                    "name": "_chainId",
+                    "type": "uint16"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "estimateFeesView",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "tokenURI",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "startIdx",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "endIdx",
+					"type": "uint256"
+				}
+			],
+			"name": "GetYours",
+			"outputs": [
+				{
+					"internalType": "uint256[]",
+					"name": "",
+					"type": "uint256[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+    ]
+}
